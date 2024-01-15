@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escribir Comentario</title>
+</head>
+<body>
+  <h1>Escribir un Comentario</h1>
+  <form action="/post-comment" method="post">
+    <label for="comment">Comentario:</label>
+    <textarea id="comment" name="comment" rows="4" required></textarea>
+    <br>
+    <button type="submit">Publicar Comentario</button>
+  </form>
+  <br>
+  <a href="/comments">Volver a los Comentarios</a>
+  <br>
+  <a href="/logout">Cerrar Sesión</a>
+</body>
+</html>
